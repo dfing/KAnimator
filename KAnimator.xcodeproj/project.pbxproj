@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF4DA8EA2507293D00939E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA8E92507293D00939E1E /* AppDelegate.swift */; };
+		AF4DA8EC2507293D00939E1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA8EB2507293D00939E1E /* SceneDelegate.swift */; };
+		AF4DA8EE2507293D00939E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA8ED2507293D00939E1E /* ViewController.swift */; };
+		AF4DA8F12507293D00939E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4DA8EF2507293D00939E1E /* Main.storyboard */; };
+		AF4DA8F32507293E00939E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4DA8F22507293E00939E1E /* Assets.xcassets */; };
+		AF4DA8F62507293E00939E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4DA8F42507293E00939E1E /* LaunchScreen.storyboard */; };
+		AF4DA9012507293F00939E1E /* KAnimatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA9002507293F00939E1E /* KAnimatorTests.swift */; };
+		AF4DA90C2507293F00939E1E /* KAnimatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA90B2507293F00939E1E /* KAnimatorUITests.swift */; };
+		AF4DA91B2507299200939E1E /* KAnimatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA91A2507299200939E1E /* KAnimatorProtocol.swift */; };
+		AF4DA91D2507318800939E1E /* KSimpleAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA91C2507318800939E1E /* KSimpleAnimator.swift */; };
+		AF4DA92225075FD400939E1E /* KViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA92125075FD400939E1E /* KViewControllerA.swift */; };
+		AF4DA92625076EAB00939E1E /* KHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA92525076EAB00939E1E /* KHomeViewController.swift */; };
+		AF4DA92E2507718D00939E1E /* KViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA92D2507718D00939E1E /* KViewControllerB.swift */; };
+		AF4DA930250771D000939E1E /* KViewControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA92F250771D000939E1E /* KViewControllerC.swift */; };
+		AF4DA9322507792E00939E1E /* KViewControllerD.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA9312507792E00939E1E /* KViewControllerD.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF4DA8FD2507293E00939E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF4DA8DE2507293D00939E1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF4DA8E52507293D00939E1E;
+			remoteInfo = KAnimator;
+		};
+		AF4DA9082507293F00939E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF4DA8DE2507293D00939E1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF4DA8E52507293D00939E1E;
+			remoteInfo = KAnimator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF4DA8E62507293D00939E1E /* KAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4DA8E92507293D00939E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF4DA8EB2507293D00939E1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF4DA8ED2507293D00939E1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF4DA8F02507293D00939E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF4DA8F22507293E00939E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF4DA8F52507293E00939E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF4DA8F72507293E00939E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4DA8FC2507293E00939E1E /* KAnimatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAnimatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4DA9002507293F00939E1E /* KAnimatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAnimatorTests.swift; sourceTree = "<group>"; };
+		AF4DA9022507293F00939E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4DA9072507293F00939E1E /* KAnimatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAnimatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4DA90B2507293F00939E1E /* KAnimatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAnimatorUITests.swift; sourceTree = "<group>"; };
+		AF4DA90D2507293F00939E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4DA91A2507299200939E1E /* KAnimatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAnimatorProtocol.swift; sourceTree = "<group>"; };
+		AF4DA91C2507318800939E1E /* KSimpleAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSimpleAnimator.swift; sourceTree = "<group>"; };
+		AF4DA92125075FD400939E1E /* KViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KViewControllerA.swift; sourceTree = "<group>"; };
+		AF4DA92525076EAB00939E1E /* KHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHomeViewController.swift; sourceTree = "<group>"; };
+		AF4DA92D2507718D00939E1E /* KViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KViewControllerB.swift; sourceTree = "<group>"; };
+		AF4DA92F250771D000939E1E /* KViewControllerC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KViewControllerC.swift; sourceTree = "<group>"; };
+		AF4DA9312507792E00939E1E /* KViewControllerD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KViewControllerD.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF4DA8E32507293D00939E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4DA8F92507293E00939E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4DA9042507293F00939E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF4DA8DD2507293D00939E1E = {
+			isa = PBXGroup;
+			children = (
+				AF4DA8E82507293D00939E1E /* KAnimator */,
+				AF4DA8FF2507293F00939E1E /* KAnimatorTests */,
+				AF4DA90A2507293F00939E1E /* KAnimatorUITests */,
+				AF4DA8E72507293D00939E1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF4DA8E72507293D00939E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DA8E62507293D00939E1E /* KAnimator.app */,
+				AF4DA8FC2507293E00939E1E /* KAnimatorTests.xctest */,
+				AF4DA9072507293F00939E1E /* KAnimatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF4DA8E82507293D00939E1E /* KAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DA8E92507293D00939E1E /* AppDelegate.swift */,
+				AF4DA8EB2507293D00939E1E /* SceneDelegate.swift */,
+				AF4DA8ED2507293D00939E1E /* ViewController.swift */,
+				AF4DA8EF2507293D00939E1E /* Main.storyboard */,
+				AF4DA8F22507293E00939E1E /* Assets.xcassets */,
+				AF4DA8F42507293E00939E1E /* LaunchScreen.storyboard */,
+				AF4DA8F72507293E00939E1E /* Info.plist */,
+				AF4DA91A2507299200939E1E /* KAnimatorProtocol.swift */,
+				AF4DA92025075F9400939E1E /* Demo */,
+			);
+			path = KAnimator;
+			sourceTree = "<group>";
+		};
+		AF4DA8FF2507293F00939E1E /* KAnimatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DA9002507293F00939E1E /* KAnimatorTests.swift */,
+				AF4DA9022507293F00939E1E /* Info.plist */,
+			);
+			path = KAnimatorTests;
+			sourceTree = "<group>";
+		};
+		AF4DA90A2507293F00939E1E /* KAnimatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DA90B2507293F00939E1E /* KAnimatorUITests.swift */,
+				AF4DA90D2507293F00939E1E /* Info.plist */,
+			);
+			path = KAnimatorUITests;
+			sourceTree = "<group>";
+		};
+		AF4DA92025075F9400939E1E /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DA91C2507318800939E1E /* KSimpleAnimator.swift */,
+				AF4DA92525076EAB00939E1E /* KHomeViewController.swift */,
+				AF4DA92125075FD400939E1E /* KViewControllerA.swift */,
+				AF4DA92D2507718D00939E1E /* KViewControllerB.swift */,
+				AF4DA92F250771D000939E1E /* KViewControllerC.swift */,
+				AF4DA9312507792E00939E1E /* KViewControllerD.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF4DA8E52507293D00939E1E /* KAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4DA9102507293F00939E1E /* Build configuration list for PBXNativeTarget "KAnimator" */;
+			buildPhases = (
+				AF4DA8E22507293D00939E1E /* Sources */,
+				AF4DA8E32507293D00939E1E /* Frameworks */,
+				AF4DA8E42507293D00939E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KAnimator;
+			productName = KAnimator;
+			productReference = AF4DA8E62507293D00939E1E /* KAnimator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF4DA8FB2507293E00939E1E /* KAnimatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4DA9132507293F00939E1E /* Build configuration list for PBXNativeTarget "KAnimatorTests" */;
+			buildPhases = (
+				AF4DA8F82507293E00939E1E /* Sources */,
+				AF4DA8F92507293E00939E1E /* Frameworks */,
+				AF4DA8FA2507293E00939E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF4DA8FE2507293E00939E1E /* PBXTargetDependency */,
+			);
+			name = KAnimatorTests;
+			productName = KAnimatorTests;
+			productReference = AF4DA8FC2507293E00939E1E /* KAnimatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF4DA9062507293F00939E1E /* KAnimatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4DA9162507293F00939E1E /* Build configuration list for PBXNativeTarget "KAnimatorUITests" */;
+			buildPhases = (
+				AF4DA9032507293F00939E1E /* Sources */,
+				AF4DA9042507293F00939E1E /* Frameworks */,
+				AF4DA9052507293F00939E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF4DA9092507293F00939E1E /* PBXTargetDependency */,
+			);
+			name = KAnimatorUITests;
+			productName = KAnimatorUITests;
+			productReference = AF4DA9072507293F00939E1E /* KAnimatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF4DA8DE2507293D00939E1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = kaylla;
+				TargetAttributes = {
+					AF4DA8E52507293D00939E1E = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					AF4DA8FB2507293E00939E1E = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = AF4DA8E52507293D00939E1E;
+					};
+					AF4DA9062507293F00939E1E = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = AF4DA8E52507293D00939E1E;
+					};
+				};
+			};
+			buildConfigurationList = AF4DA8E12507293D00939E1E /* Build configuration list for PBXProject "KAnimator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF4DA8DD2507293D00939E1E;
+			productRefGroup = AF4DA8E72507293D00939E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF4DA8E52507293D00939E1E /* KAnimator */,
+				AF4DA8FB2507293E00939E1E /* KAnimatorTests */,
+				AF4DA9062507293F00939E1E /* KAnimatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF4DA8E42507293D00939E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4DA8F62507293E00939E1E /* LaunchScreen.storyboard in Resources */,
+				AF4DA8F32507293E00939E1E /* Assets.xcassets in Resources */,
+				AF4DA8F12507293D00939E1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4DA8FA2507293E00939E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4DA9052507293F00939E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF4DA8E22507293D00939E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4DA8EE2507293D00939E1E /* ViewController.swift in Sources */,
+				AF4DA92225075FD400939E1E /* KViewControllerA.swift in Sources */,
+				AF4DA91D2507318800939E1E /* KSimpleAnimator.swift in Sources */,
+				AF4DA8EA2507293D00939E1E /* AppDelegate.swift in Sources */,
+				AF4DA92E2507718D00939E1E /* KViewControllerB.swift in Sources */,
+				AF4DA9322507792E00939E1E /* KViewControllerD.swift in Sources */,
+				AF4DA92625076EAB00939E1E /* KHomeViewController.swift in Sources */,
+				AF4DA930250771D000939E1E /* KViewControllerC.swift in Sources */,
+				AF4DA91B2507299200939E1E /* KAnimatorProtocol.swift in Sources */,
+				AF4DA8EC2507293D00939E1E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4DA8F82507293E00939E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4DA9012507293F00939E1E /* KAnimatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4DA9032507293F00939E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4DA90C2507293F00939E1E /* KAnimatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF4DA8FE2507293E00939E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF4DA8E52507293D00939E1E /* KAnimator */;
+			targetProxy = AF4DA8FD2507293E00939E1E /* PBXContainerItemProxy */;
+		};
+		AF4DA9092507293F00939E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF4DA8E52507293D00939E1E /* KAnimator */;
+			targetProxy = AF4DA9082507293F00939E1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF4DA8EF2507293D00939E1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4DA8F02507293D00939E1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF4DA8F42507293E00939E1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4DA8F52507293E00939E1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF4DA90E2507293F00939E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF4DA90F2507293F00939E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF4DA9112507293F00939E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSJ8L744X4;
+				INFOPLIST_FILE = KAnimator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaylla.KAnimator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF4DA9122507293F00939E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSJ8L744X4;
+				INFOPLIST_FILE = KAnimator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaylla.KAnimator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF4DA9142507293F00939E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSJ8L744X4;
+				INFOPLIST_FILE = KAnimatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaylla.KAnimatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAnimator.app/KAnimator";
+			};
+			name = Debug;
+		};
+		AF4DA9152507293F00939E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSJ8L744X4;
+				INFOPLIST_FILE = KAnimatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaylla.KAnimatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAnimator.app/KAnimator";
+			};
+			name = Release;
+		};
+		AF4DA9172507293F00939E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSJ8L744X4;
+				INFOPLIST_FILE = KAnimatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaylla.KAnimatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KAnimator;
+			};
+			name = Debug;
+		};
+		AF4DA9182507293F00939E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSJ8L744X4;
+				INFOPLIST_FILE = KAnimatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaylla.KAnimatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KAnimator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF4DA8E12507293D00939E1E /* Build configuration list for PBXProject "KAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4DA90E2507293F00939E1E /* Debug */,
+				AF4DA90F2507293F00939E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4DA9102507293F00939E1E /* Build configuration list for PBXNativeTarget "KAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4DA9112507293F00939E1E /* Debug */,
+				AF4DA9122507293F00939E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4DA9132507293F00939E1E /* Build configuration list for PBXNativeTarget "KAnimatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4DA9142507293F00939E1E /* Debug */,
+				AF4DA9152507293F00939E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4DA9162507293F00939E1E /* Build configuration list for PBXNativeTarget "KAnimatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4DA9172507293F00939E1E /* Debug */,
+				AF4DA9182507293F00939E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF4DA8DE2507293D00939E1E /* Project object */;
+}
